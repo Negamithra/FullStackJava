@@ -19,7 +19,8 @@ public class CorsConfig {
         // Frontend URLs
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5500",
-                "http://127.0.0.1:5500"
+                "http://127.0.0.1:5500",
+            "https://negamithra.github.io/FullStackFrontEnd"
         ));
 
         // Allowed HTTP Methods
