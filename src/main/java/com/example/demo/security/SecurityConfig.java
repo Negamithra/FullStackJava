@@ -119,7 +119,7 @@ public class SecurityConfig {
 
                 .requestMatchers(HttpMethod.DELETE,
                         "/organizations/**")
-                .hasRole("PLATFORM_ADMIN",
+                .hasAnyRole("PLATFORM_ADMIN",
                          "ORGANIZATION_COORDINATOR")
 
                 // ==========================
